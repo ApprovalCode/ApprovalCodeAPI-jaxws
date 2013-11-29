@@ -1,0 +1,72 @@
+Approval Code Java-WS Library
+-----------------------
+
+For further documentation on this library please see
+
+    Approval Code Developer Documentation
+
+
+Compiling Example from Command Line
+-----------------------------------
+To compile the example you must have ApprovalCodeAPI-jaxws-1.2.jar and the Apache CXF
+jars in your path. The CXF binaries can be downloaded from
+
+    http://cxf.apache.org/download.html
+
+Once you have downloaded the cfx zip or tgz file,  extract the archive. Assuming
+you extract them in the same file as the example,  use the following command
+to compile the example:
+
+javac -classpath ./ApprovalCodeAPI-jaxws-1.2.jar:\
+./apache-cxf-2.2.3/lib/commons-logging-1.1.1.jar:\
+./apache-cxf-2.2.3/lib/cxf-2.2.3.jar:\
+./apache-cxf-2.2.3/lib/geronimo-activation_1.1_spec-1.0.2.jar:\
+./apache-cxf-2.2.3/lib/geronimo-annotation_1.0_spec-1.1.1.jar:\
+./apache-cxf-2.2.3/lib/geronimo-javamail_1.4_spec-1.6.jar:\
+./apache-cxf-2.2.3/lib/geronimo-jaxws_2.1_spec-1.0.jar:\
+./apache-cxf-2.2.3/lib/geronimo-servlet_2.5_spec-1.2.jar:\
+./apache-cxf-2.2.3/lib/geronimo-stax-api_1.0_spec-1.0.1.jar:\
+./apache-cxf-2.2.3/lib/geronimo-ws-metadata_2.0_spec-1.1.2.jar:\
+./apache-cxf-2.2.3/lib/jaxb-api-2.1.jar:\
+./apache-cxf-2.2.3/lib/jaxb-impl-2.1.12.jar:\
+./apache-cxf-2.2.3/lib/jetty-6.1.19.jar:\
+./apache-cxf-2.2.3/lib/jetty-util-6.1.19.jar:\
+./apache-cxf-2.2.3/lib/neethi-2.0.4.jar:\
+./apache-cxf-2.2.3/lib/saaj-api-1.3.jar:\
+./apache-cxf-2.2.3/lib/saaj-impl-1.3.2.jar:\
+./apache-cxf-2.2.3/lib/wsdl4j-1.6.2.jar:\
+./apache-cxf-2.2.3/lib/wstx-asl-3.2.8.jar:\
+./apache-cxf-2.2.3/lib/xml-resolver-1.2.jar:\
+./apache-cxf-2.2.3/lib/XmlSchema-1.4.5.jar \
+ Example.java
+
+
+Running Example from Command Line
+-----------------------------------
+To run the compiled example from the command line,  you must reference the same
+class path as above:
+
+java -classpath .:./ApprovalCodeAPI-jaxws-1.2.jar:\
+./apache-cxf-2.2.3/lib/commons-logging-1.1.1.jar:\
+./apache-cxf-2.2.3/lib/cxf-2.2.3.jar:\
+./apache-cxf-2.2.3/lib/geronimo-activation_1.1_spec-1.0.2.jar:\
+./apache-cxf-2.2.3/lib/geronimo-annotation_1.0_spec-1.1.1.jar:\
+./apache-cxf-2.2.3/lib/geronimo-javamail_1.4_spec-1.6.jar:\
+./apache-cxf-2.2.3/lib/geronimo-jaxws_2.1_spec-1.0.jar:\
+./apache-cxf-2.2.3/lib/geronimo-servlet_2.5_spec-1.2.jar:\
+./apache-cxf-2.2.3/lib/geronimo-stax-api_1.0_spec-1.0.1.jar:\
+./apache-cxf-2.2.3/lib/geronimo-ws-metadata_2.0_spec-1.1.2.jar:\
+./apache-cxf-2.2.3/lib/jaxb-api-2.1.jar:\
+./apache-cxf-2.2.3/lib/jaxb-impl-2.1.12.jar:\
+./apache-cxf-2.2.3/lib/jetty-6.1.19.jar:\
+./apache-cxf-2.2.3/lib/jetty-util-6.1.19.jar:\
+./apache-cxf-2.2.3/lib/neethi-2.0.4.jar:\
+./apache-cxf-2.2.3/lib/saaj-api-1.3.jar:\
+./apache-cxf-2.2.3/lib/saaj-impl-1.3.2.jar:\
+./apache-cxf-2.2.3/lib/wsdl4j-1.6.2.jar:\
+./apache-cxf-2.2.3/lib/wstx-asl-3.2.8.jar:\
+./apache-cxf-2.2.3/lib/xml-resolver-1.2.jar:\
+./apache-cxf-2.2.3/lib/XmlSchema-1.4.5.jar \
+ Example
+
+
